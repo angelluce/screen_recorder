@@ -1,3 +1,8 @@
+:root {
+    --primary-800:#4c3387;
+    --primary-900:#382562;
+}
+
 body {
     margin: 0;
     font-family: "Inter var", sans-serif;
@@ -10,7 +15,11 @@ body {
     justify-content: center;
     scroll-behavior: smooth;
     height: 100vh;
-    /* background-image: url('../assets/bg.webp'); */
+    background-image: url('https://img.freepik.com/vector-premium/cinema-patron-costura-simbolos-produccion-peliculas-ilustracion-vectorial-dibujada-mano-sobre-fondo-blanco_178650-20495.jpg?w=740');
+}
+
+h1 {
+    color: var(--primary-900);
 }
 
 a {
@@ -56,8 +65,8 @@ a {
 
 .p-button {
     color: #ffffff;
-    background: #8B5CF6;
-    border: 1px solid #8B5CF6;
+    background: var(--primary-800);
+    border: 1px solid var(--primary-800);
     padding: 0.65625rem 1.09375rem;
     font-size: 1rem;
     transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
@@ -68,7 +77,7 @@ a {
 
 .p-button-text {
     background-color: transparent;
-    color: #8B5CF6;
+    color: var(--primary-800);
     border-color: transparent;
     /* padding: 0.65625rem 1.09375rem; */
 }
